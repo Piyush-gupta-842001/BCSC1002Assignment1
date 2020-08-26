@@ -6,8 +6,16 @@
 package definitions;
 
 public class Book {
-    private String bookName;
-    private String authorName;
-    private Long bookISBNNumber;
+    private final String bookName;
+    private final String authorName;
+    private final long bookISBNNumber;
+
+
+    public Book () {
+        this.bookName = " ";
+        this.authorName = " ";
+        this.bookISBNNumber = 0;
+    }
+
 
 }
