@@ -36,7 +36,7 @@ public class FrontDesk {
         String isbnNumber;
         switch (userChoice) {
             case 1 -> {
-                System.out.print ( " Enter the Book name or ISBN no. of the book : " );
+                System.out.print ( " *Enter the Book name and ISBN no. of the book : " );
                 System.out.println ();
                 bookName = scanner.nextLine ();
                 isbnNumber = scanner.nextLine ();
@@ -50,8 +50,8 @@ public class FrontDesk {
             }
             case 2 -> System.out.println ( "Okay, i will do that for you !" );
             case 3 -> System.out.println ( "Okay, the list is below you." );
-            case 4 -> System.out.println ( "Thank you, for visiting." );
-            default -> System.out.println ( "Invalid choice." );
+            case 4 -> System.out.println ( "Thank you, for visiting Library." );
+            default -> System.out.println ( "Invalid Choice !!!!!:)" );
         }
     }
 }
