@@ -10,9 +10,11 @@ public class Book {
     private String authorName;
     private long bookISBNNumber;
 
-
-
-
+    public Book ( String bookName, String authorName, long bookISBNNumber ) {
+        this.bookName = bookName;
+        this.authorName = authorName;
+        this.bookISBNNumber = bookISBNNumber;
+    }
 
 
 }
